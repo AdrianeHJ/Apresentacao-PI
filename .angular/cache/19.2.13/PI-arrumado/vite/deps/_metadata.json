@@ -1,0 +1,73 @@
+{
+  "hash": "3e859009",
+  "configHash": "3bfd284f",
+  "lockfileHash": "c206b06a",
+  "browserHash": "3c3d2d1f",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "3c1a0ed0",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "2da575dc",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "3875e16b",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "93d2db6e",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "46f76006",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations/async": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/animations/async.mjs",
+      "file": "@angular_platform-browser_animations_async.js",
+      "fileHash": "ab9d52ba",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "77a93097",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-ZVCOZ4LR": {
+      "file": "chunk-ZVCOZ4LR.js"
+    },
+    "chunk-P4PEBPWE": {
+      "file": "chunk-P4PEBPWE.js"
+    },
+    "chunk-ZIMOU4ZO": {
+      "file": "chunk-ZIMOU4ZO.js"
+    },
+    "chunk-T255G5CI": {
+      "file": "chunk-T255G5CI.js"
+    },
+    "chunk-ELS4K4XT": {
+      "file": "chunk-ELS4K4XT.js"
+    },
+    "browser-SCB7ENQA": {
+      "file": "browser-SCB7ENQA.js"
+    },
+    "chunk-PUPFYMDY": {
+      "file": "chunk-PUPFYMDY.js"
+    }
+  }
+}
