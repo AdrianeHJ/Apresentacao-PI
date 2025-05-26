@@ -1,0 +1,49 @@
+<div class="tela-login">
+  <form>
+    <div class="titulo">
+      <h1>Faça o Seu Login</h1>
+      <div class="barra-horizontal"></div>
+    </div>
+
+    <div class="campo-input">
+      <label for="login">Seu e-mail*</label>
+      <input
+        type="text"
+        id="login"
+        placeholder="Login"
+        name="login"
+        [(ngModel)]="login"
+        required
+      />
+    </div>
+
+    <div class="campo-input">
+      <label for="senha">Sua senha*</label>
+      <input
+        type="password"
+        id="senha"
+        placeholder="Senha"
+        name="senha"
+        [(ngModel)]="senha"
+        required
+      />
+    </div>
+
+    <div class="lembrar-me">
+      <input type="checkbox" />
+      <p>Lembrar-me</p>
+    </div>
+
+    <button
+      type="submit"
+      class="botao"
+      (disabled)="(botaoDesabilitado)"
+      (click)="onBotaoClicado()"
+    >
+      Entrar
+    </button>
+      <a routerLink="">Esqueceu sua senha?</a>
+      
+      <a  routerLink="">Voltar para o início</a>
+  </form>
+</div>

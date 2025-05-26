@@ -1,0 +1,11 @@
+{
+  "produto": [
+    {
+      "id": "1",
+      "nome": "Rosa amarela",
+      "quantidade": 20,
+      "precounit": 11.6,
+      "tipo": "Rosas"
+    }
+  ]
+}

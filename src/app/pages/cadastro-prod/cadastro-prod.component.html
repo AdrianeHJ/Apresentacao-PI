@@ -1,0 +1,95 @@
+
+  <div class="create-product-container">
+    <div class="content-container">
+      <h1>{{ titulo }}</h1>
+      <br>
+      <form #productForm="ngForm" class="product-form">
+        <div class="form-group">
+          <label for="id">ID</label>
+          <input
+            type="text"
+            id="id"
+            placeholder="Ex: 1"
+            [(ngModel)]="produto.id"
+            name="id"
+            required
+            #id="ngModel"
+          />
+          <div *ngIf="id.invalid && (id.touched || isSubmitted)" class="error-message">
+            ID é obrigatório
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            id="nome"
+            placeholder="Ex: Rosas, combo amor"
+            [(ngModel)]="produto.nome"
+            name="nome"
+            required
+            #nome="ngModel"
+          />
+          <div *ngIf="nome.invalid && (nome.touched || isSubmitted)" class="error-message">
+            Nome é obrigatório
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="tipo">Tipo</label>
+          <input
+            type="text"
+            id="tipo"
+            placeholder="Ex: Rosas"
+            [(ngModel)]="produto.tipo"
+            name="tipo"
+            required
+            #tipo="ngModel"
+          />
+          <div *ngIf="tipo.invalid && (tipo.touched || isSubmitted)" class="error-message">
+            Tipo é obrigatório
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="quantidade">Quantidade</label>
+          <input
+            type="number"
+            id="quantidade"
+            placeholder="Ex: 10"
+            [(ngModel)]="produto.quantidade"
+            name="quantidade"
+            required
+            #quantidade="ngModel"
+          />
+          <div *ngIf="quantidade.invalid && (quantidade.touched || isSubmitted)" class="error-message">
+            Quantidade é obrigatório
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="precounit">Preço unitário</label>
+          <input
+            type="number"
+            id="precounit"
+            placeholder="Ex: 11.99"
+            [(ngModel)]="produto.precounit"
+            name="precounit"
+            required
+            #precounit="ngModel"
+          />
+          <div *ngIf="precounit.invalid && (precounit.touched || isSubmitted)" class="error-message">
+            Preço é obrigatório
+          </div>
+        </div>
+
+        <button class="cadastrar-btn" (click)="submeter()">Cadastrar</button>
+
+        <button type="button" class="cancel-btn" (click)="cancel()">
+          Cancelar
+        </button>
+      </form>
+    </div>
+  </div>
+
